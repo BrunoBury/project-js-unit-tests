@@ -25,7 +25,7 @@ const circle = (radius) => {
 
   return {
     radius,
-    area: PI * radius ** 2,
+    area: PI * radius * radius,
     circumference: 2 * PI * radius,
   };
 };
